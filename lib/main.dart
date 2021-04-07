@@ -17,7 +17,7 @@ class MyApp extends StatelessWidget {
       home: Scaffold(
         appBar: AppBar(
           centerTitle: false,
-          title: const Text('TRIALのアプリケーション'),
+          title: const Text('ムスブ宮若'),
           actions: [
             SizedBox(
               width: 40,
@@ -48,10 +48,10 @@ class MyApp extends StatelessWidget {
                   Row(
                     children: [
                       SizedBox(
-                          width: 80,
-                          height: 80,
+                          width: 150,
+                          height: 100,
                           child: Image.network(
-                              'https://yt3.ggpht.com/ytc/AAUvwnhnsf5cGa5MdsJ79BRg5Wv_3QgV1zNYmxZY7Q4d=s176-c-k-c0x00ffffff-no-rj'
+                              'https://www.trial-net.co.jp/REMOTEWORKTOWN/img/img_RWT.png'
                           ),
                       ),
                       const SizedBox(
@@ -59,7 +59,7 @@ class MyApp extends StatelessWidget {
                       ),
                       Column(
                         children: [
-                          const Text('TRIALのアプリケーション'),
+                          const Text('プロジェクト紹介動画'),
                           FlatButton(
                             child:
                                 Row(
