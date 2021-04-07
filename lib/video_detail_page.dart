@@ -8,7 +8,7 @@ class VideoDetailPage extends StatelessWidget{
       body: Center(
         child: Container(
           child: RaisedButton(
-            child: Text('再生'),
+            child: Text('動画'),
             onPressed: (){
               //todo ここに押したら反応するコードを書く
             },
